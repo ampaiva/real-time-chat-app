@@ -1,0 +1,83 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-react-lists/styles/bootstrap5.css";
+@import "../node_modules/@syncfusion/ej2-react-inputs/styles/bootstrap5.css";
+@import '../node_modules/@syncfusion/ej2-layouts/styles/bootstrap5.css';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-size: 3rem;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.settings {
+  display: flex;
+  font-size: 13px;
+}
+
+.sender-settings {
+  justify-content: flex-end;
+}
+
+.receiver-settings {
+  justify-content: flex-start;
+}
+
+.content {
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 60%;
+}
+
+.receiver-content {
+  background-color: #fff;
+  margin-left: 12px;
+}
+
+.sender-content {
+  background-color: #dbf0f9;
+}
+
+.e-avatar {
+  height: 34px;
+  width: 34px;
+}
+
+.e-send:before {
+  content: '\e763';
+  font-family: e-icons;
+  font-size: 14px;
+}
+
+#List .e-list-item {
+  height: auto;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  border-bottom: none !important;
+}
+
+.e-listview {
+  background-color: #F9F8F8;
+}
+
+.e-listview .e-list-header {
+  background: rgb(2, 120, 215);
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.e-listview .e-list-item:hover {
+  background: #F9F8F8 !important;
+  cursor: pointer !important;
+}
+
+.e-listview {
+  background-color: #F9F8F8;
+}
